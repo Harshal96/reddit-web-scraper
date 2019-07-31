@@ -2,9 +2,10 @@
 A web scraper to view traffic for a keyword on reddit
 
 Using traffic command:
-  node cli.js traffic bitcoin
+  ```node cli.js traffic bitcoin```
   
 Output:
+```
   {
     "bitcoin": {
       "monthly": {
@@ -42,6 +43,7 @@ Output:
       }
     }
   }
+  ```
   
 More commands:
-  traffic <subReddit> [moreSubReddits...]
+  ```traffic <subReddit> [moreSubReddits...]```
